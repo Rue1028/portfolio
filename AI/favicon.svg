@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- 背景圆形 -->
+  <circle cx="16" cy="16" r="16" fill="url(#gradient)" />
+  
+  <!-- 渐变定义 -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E8B57" />
+      <stop offset="100%" stop-color="#1ABC9C" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 植物图标 -->
+  <g fill="#FFFFFF" transform="translate(8, 6)">
+    <!-- 茎 -->
+    <rect x="7.5" y="10" width="1.5" height="10" rx="0.75" />
+    
+    <!-- 叶子 -->
+    <path d="M8.5,10 C8.5,10 12,7 14,9 C16,11 13,14 8.5,10 Z" />
+    <path d="M8,12 C8,12 4,9 2,11 C0,13 3,16 8,12 Z" />
+    
+    <!-- 顶部叶子/花 -->
+    <circle cx="8.5" cy="6" r="4" />
+    
+    <!-- 水滴 -->
+    <path d="M12,16 C12,16 14,14 15,15 C16,16 14,18 12,16 Z" fill="#1ABC9C" />
+  </g>
+</svg>

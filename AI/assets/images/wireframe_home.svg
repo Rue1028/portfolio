@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="800" viewBox="0 0 400 800">
+  <!-- 背景 -->
+  <rect width="400" height="800" fill="#f5f5f5" rx="20" ry="20" />
+  
+  <!-- 手机框架 -->
+  <rect x="10" y="10" width="380" height="780" fill="#ffffff" stroke="#cccccc" stroke-width="2" rx="20" ry="20" />
+  
+  <!-- 状态栏 -->
+  <rect x="10" y="10" width="380" height="30" fill="#f0f0f0" stroke="#cccccc" stroke-width="1" rx="20" ry="20" />
+  
+  <!-- 标题栏 -->
+  <rect x="10" y="40" width="380" height="50" fill="#2E8B57" rx="0" ry="0" />
+  <text x="200" y="70" font-family="Arial" font-size="18" text-anchor="middle" fill="#ffffff" font-weight="bold">不背单词</text>
+  <circle cx="50" cy="65" r="15" fill="#ffffff" fill-opacity="0.3" />
+  <circle cx="350" cy="65" r="15" fill="#ffffff" fill-opacity="0.3" />
+  
+  <!-- 搜索栏 -->
+  <rect x="30" y="110" width="340" height="40" fill="#ffffff" stroke="#dddddd" stroke-width="1" rx="20" ry="20" />
+  <text x="70" y="135" font-family="Arial" font-size="14" text-anchor="start" fill="#999999">搜索单词或课程...</text>
+  <circle cx="50" cy="130" r="10" fill="none" stroke="#999999" stroke-width="1" />
+  
+  <!-- 植物养成区域 -->
+  <rect x="30" y="170" width="340" height="200" fill="#e8f5e9" stroke="#2E8B57" stroke-width="1" rx="10" ry="10" />
+  
+  <!-- 植物图形 -->
+  <circle cx="200" cy="220" r="30" fill="#2E8B57" />
+  <rect x="195" y="250" width="10" height="50" fill="#2E8B57" />
+  <path d="M195,260 Q175,240 155,260" stroke="#2E8B57" stroke-width="5" fill="none" />
+  <path d="M205,270 Q225,250 245,270" stroke="#2E8B57" stroke-width="5" fill="none" />
+  
+  <!-- 植物信息 -->
+  <text x="200" y="320" font-family="Arial" font-size="16" text-anchor="middle" fill="#333333" font-weight="bold">小树苗 Lv.2</text>
+  <rect x="100" y="330" width="200" height="20" fill="#ffffff" stroke="#2E8B57" stroke-width="1" rx="10" ry="10" />
+  <rect x="100" y="330" width="80" height="20" fill="#2E8B57" rx="10" ry="10" />
+  <text x="200" y="345" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">成长值: 40/100</text>
+  
+  <!-- 浇水按钮 -->
+  <rect x="150" y="360" width="100" height="30" fill="#3CB371" stroke="none" rx="15" ry="15" />
+  <text x="200" y="380" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">浇水</text>
+  
+  <!-- 任务区域 -->
+  <rect x="30" y="390" width="340" height="180" fill="#ffffff" stroke="#dddddd" stroke-width="1" rx="10" ry="10" />
+  <text x="50" y="420" font-family="Arial" font-size="16" text-anchor="start" fill="#333333" font-weight="bold">今日任务</text>
+  
+  <!-- 任务列表 -->
+  <rect x="50" y="430" width="300" height="40" fill="#f9f9f9" stroke="#eeeeee" stroke-width="1" rx="5" ry="5" />
+  <text x="70" y="455" font-family="Arial" font-size="14" text-anchor="start" fill="#333333">完成每日单词学习</text>
+  <rect x="270" y="440" width="60" height="20" fill="#2E8B57" rx="10" ry="10" />
+  <text x="300" y="455" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">+10分</text>
+  
+  <rect x="50" y="480" width="300" height="40" fill="#f9f9f9" stroke="#eeeeee" stroke-width="1" rx="5" ry="5" />
+  <text x="70" y="505" font-family="Arial" font-size="14" text-anchor="start" fill="#333333">分享学习成果</text>
+  <rect x="270" y="490" width="60" height="20" fill="#2E8B57" rx="10" ry="10" />
+  <text x="300" y="505" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">+5分</text>
+  
+  <rect x="50" y="530" width="300" height="40" fill="#f9f9f9" stroke="#eeeeee" stroke-width="1" rx="5" ry="5" />
+  <text x="70" y="555" font-family="Arial" font-size="14" text-anchor="start" fill="#333333">完成听力练习</text>
+  <rect x="270" y="540" width="60" height="20" fill="#2E8B57" rx="10" ry="10" />
+  <text x="300" y="555" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">+8分</text>
+  
+  <!-- 积分商城入口 -->
+  <rect x="30" y="590" width="340" height="80" fill="#1ABC9C" stroke="none" rx="10" ry="10" />
+  <text x="200" y="630" font-family="Arial" font-size="18" text-anchor="middle" fill="#ffffff" font-weight="bold">进入积分商城</text>
+  <text x="200" y="655" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">当前积分: 120</text>
+  
+  <!-- 底部导航栏 -->
+  <rect x="10" y="740" width="380" height="50" fill="#f9f9f9" stroke="#eeeeee" stroke-width="1" />
+  
+  <!-- 导航图标 -->
+  <circle cx="80" cy="765" r="15" fill="#2E8B57" />
+  <text x="80" y="785" font-family="Arial" font-size="10" text-anchor="middle" fill="#333333">首页</text>
+  
+  <circle cx="200" cy="765" r="15" fill="#dddddd" />
+  <text x="200" y="785" font-family="Arial" font-size="10" text-anchor="middle" fill="#333333">学习</text>
+  
+  <circle cx="320" cy="765" r="15" fill="#dddddd" />
+  <text x="320" y="785" font-family="Arial" font-size="10" text-anchor="middle" fill="#333333">我的</text>
+  
+  <!-- 文字提示 -->
+  <text x="200" y="720" font-family="Arial" font-size="14" text-anchor="middle" fill="#999999">首页低保真原型图</text>
+</svg>
