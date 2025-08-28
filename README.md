@@ -1,4 +1,4 @@
-# 不背单词App改进方案 | 产品经理作品集
+# 作品集
 
 ## 项目概述
 
@@ -8,15 +8,31 @@
 
 ```
 .
-├── index.html          # 主页面HTML文件
-├── styles.css          # CSS样式文件
-├── scripts.js          # JavaScript交互脚本
-├── favicon.svg         # 网站图标
-├── assets/             # 资源文件夹
-│   ├── images/         # 图片资源
-│   └── videos/         # 视频资源
-└── README.md           # 项目说明文档
-```
+project-root/
+│
+├── index.html                  # 首页
+├── project1.html               # 项目一详情页 - 不背单词积分商城
+├── project2.html               # 项目二详情页 - AI 星座占卜
+├── project3.html               # 项目三详情页 - AI 新闻助手
+│
+├── assets/                     # 静态资源文件夹
+│   ├── images/                 # 存放图片
+│   │   ├── 1.0.png             # 项目一封面
+│   │   ├── 2.0.png             # 项目二封面
+│   │   └── 0910.png            # 项目三封面
+│   │
+│   └── videos/                 # 存放视频素材（如项目演示）
+│       ├── project1-demo.mp4
+│       ├── project2-demo.mp4
+│       └── project3-demo.mp4
+│
+├── css/                        # 样式文件
+│   └── style.css
+│
+├── js/                         # 脚本文件
+│   └── main.js
+│
+└── README.md                   # 项目说明文件
 
 ## 项目特点
 
